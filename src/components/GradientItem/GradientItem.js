@@ -4,7 +4,7 @@ import classes from "./Gradient.module.css";
 
 const GradientItem = ({ firstColor, secondColor, removeGradient, id }) => {
   const inlineStyles = {
-    background: `linear-gradient(${firstColor},${secondColor})`,
+    background: `linear-gradient(to right,${firstColor},${secondColor})`,
   };
   return (
     <div className={classes.gradientContainer}>
