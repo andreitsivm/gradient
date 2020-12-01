@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: #64b5f6;
+  margin-top: 20px;
+}
+.footer h3 {
+  text-align: center;
+}
