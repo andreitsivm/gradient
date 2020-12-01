@@ -1,25 +1,29 @@
 .gradientContainer {
   display: grid;
   align-items: center;
-  grid-template-columns: 15% 70% 15%;
+  grid-template-columns: 20% 60% 20%;
   position: relative;
   outline: 1px solid #000;
-  margin: 35px 20px;
+  margin: 35px 70px;
 }
 .hexCode {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 22px;
+  margin: 10px;
 }
+
 .gradient {
-  width: 100%;
   height: 200px;
 }
 @media (max-width: 767px) {
   .gradientContainer {
     width: 320px;
     margin: 0 auto;
+  }
+  .hexCode {
+    font-size: 16px;
   }
 }
 .closeBtn {
