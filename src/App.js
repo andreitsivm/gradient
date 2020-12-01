@@ -83,7 +83,6 @@ const App = () => {
               </div>
             </form>
           </div>
-
           {gradients.length > 0 ? (
             gradients.map((item, index) => (
               <GradientItem
