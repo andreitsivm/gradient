@@ -1,4 +1,5 @@
 import React from "react";
+import propTypes from "prop-types";
 import classes from "./Gradient.module.css";
 
 const GradientItem = ({ firstColor, secondColor, removeGradient, id }) => {
@@ -15,6 +16,12 @@ const GradientItem = ({ firstColor, secondColor, removeGradient, id }) => {
       </div>
     </div>
   );
+};
+GradientItem.propTypes = {
+  firstColor: propTypes.string.isRequired,
+  secondColor: propTypes.string.isRequired,
+  id: propTypes.number.isRequired,
+  removeGradient: propTypes.func.isRequired,
 };
 
 export default GradientItem;
