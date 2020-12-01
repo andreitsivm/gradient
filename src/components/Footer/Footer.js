@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={classes.footer}>
       <Container>
-        <h3> &copy;Gradient creator</h3>
+        <span className="center"> &copy; Gradient creator</span>
       </Container>
     </footer>
   );

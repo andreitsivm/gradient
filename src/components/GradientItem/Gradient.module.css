@@ -20,7 +20,7 @@
 @media (max-width: 767px) {
   .gradientContainer {
     width: 320px;
-    margin: 0 auto;
+    margin: 30px auto;
   }
   .hexCode {
     font-size: 16px;
