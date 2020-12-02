@@ -22,8 +22,7 @@ const App = () => {
     setGradient([
       ...gradients,
       {
-        firstColor: form.firstColor,
-        secondColor: form.secondColor,
+        ...form,
         id: gradients.length + 1,
       },
     ]);
