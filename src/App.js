@@ -34,7 +34,7 @@ const App = () => {
   };
   const regex = /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/;
   const { register, handleSubmit, errors } = useForm({
-    reValidateMode: "onS",
+    reValidateMode: "onSubmit",
     mode: "onSubmit",
   });
 
